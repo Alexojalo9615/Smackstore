@@ -1,0 +1,71 @@
+GET http://localhost:5030
+
+###
+
+POST http://localhost:5030/users
+
+Content-Type: application/json
+
+{
+   "name": "Pinco",
+   "age": 30,
+   "lastName": "Pallino"
+}
+
+
+###
+POST http://localhost:5030/users/login
+Content-Type: application/json
+
+{
+    "email": "tuaemailpassword@gmail.com",
+    "password": "tuapassword"
+}
+
+
+
+###
+POST http://localhost:5030/users/register
+
+Content-Type: application/json
+
+{
+    "firstName": "Pinco",
+    "lastName": "Pallino",
+    "email": "pinco@example.com",
+    "password": "tuapassword",
+}
+
+###
+POST http://localhost:5030/api/action-figures/figures
+
+Content-Type: application/json
+
+{
+    "name": "Action Figure 1",
+    "price": 19.99,
+    "image": "https://example.com/image1.jpg",
+    "wrestler": "Wrestler 1",
+}
+
+###
+PUT http://localhost:5030/api/action-figures/figures/<id>
+
+Content-Type: application/json
+
+{
+    "name": "Updated Action Figure",
+    "price": 24.99,
+    "image": "https://example.com/updated-image.jpg",
+    "wrestler": "Updated Wrestler",
+}
+
+###
+
+DELETE http://localhost:5030/api/action-figures/figures/<id>
+
+Content-Type: application/json
+
+{
+    "id": "<id>"
+}
