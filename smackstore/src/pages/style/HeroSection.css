@@ -1,0 +1,64 @@
+.hero-section {
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1609332528571-35c247769df6"); /* Sfondo arena oscura */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    font-family: Impact, sans-serif;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* oscuramento */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    text-shadow: 3px 3px 8px rgb(140, 0, 255);
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content button {
+    background-color: rgb(166, 0, 255);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .hero-content button:hover {
+    background-color: #b30000;
+    color: white;
+    box-shadow: 0 0 15px 3px rgb(140, 0, 255);
+  }
+  
+
+  .hero {
+    background-image: url('../../assets/ring-on-fire.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 8px black;
+  }
+  

@@ -1,0 +1,80 @@
+.navbar {
+
+    background: linear-gradient(to right, #8B0000, #000000);
+    border-bottom: 3px solid red
+}
+
+.nav:first-child a {
+
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+}
+
+
+.nav:first-child a:hover {
+
+    color: rgb(140, 0, 255);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.brand{
+
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    position: relative;
+}
+
+.brand:hover {
+
+    color: rgb(140, 0, 255);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.link svg {
+    color: white;
+}
+
+.link:hover svg {
+
+    color: rgb(140, 0, 255);
+    ;
+    transform: scale(1.1);
+
+}
+
+.right {
+
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+
+}
+
+.right:hover {
+
+    color: rgb(140, 0, 255);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+#basic-nav-dropdown {
+
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+
+}
+
+#basic-nav-dropdown:hover {
+
+    color: rgb(140, 0, 255);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}

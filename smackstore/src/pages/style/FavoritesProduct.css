@@ -1,0 +1,102 @@
+.favorites-product-container {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.favorites-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.fav-carousel-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.fav-carousel {
+    display: flex;
+    justify-content: center;
+
+}
+
+.fav-card {
+
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 270px;
+    padding: 20px;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 100px;
+}
+
+.fav-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    filter: brightness(1.1);
+}
+
+.fav-card img {
+
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+.fav-card h3 {
+
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.fav-card p {
+
+    font-weight: bold;
+    color: rgb(140, 0, 255);
+}
+
+/* 
+@media (max-width: 575px) {
+
+    .fav-card {
+
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .fav-card {
+        max-width: 45%;
+    
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .fav-card {
+        max-width: 30%;
+
+    }
+}
+
+@media (min-width: 992px) {
+
+    .fav-card {
+
+       max-width: 22%;
+    }
+} */

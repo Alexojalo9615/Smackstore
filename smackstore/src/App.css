@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: bebas;
+  src: url(../public/fonts/BebasNeue-Regular.ttf);
+}
+
+.bebas{
+  font-family: bebas;
+}
+
+/* 
+.home-container {
+  background: linear-gradient(to bottom, #000000, #1a1a1a);
+  color: #fff;
+  padding: 40px 20px;
+  min-height: 100vh;
+  font-family: 'Impact', 'Arial Black', sans-serif;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  color: #e50914; 
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-section button {
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.categories-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: gold;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.category-card {
+  background: #111;
+  border: 2px solid red;
+  padding: 30px;
+  width: 200px;
+  text-align: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 8px;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px red;
+}
+
+/* Colori specifici per ogni categoria */
+.category-card.shirts { border-color: crimson; }
+.category-card.figures { border-color: gold; }
+.category-card.covers { border-color: dodgerblue; } 

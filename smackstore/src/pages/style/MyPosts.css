@@ -1,0 +1,64 @@
+.my-products-container {
+  background: linear-gradient(to bottom, #111, #222);
+  color: #fff;
+  padding: 2rem;
+  min-height: 100vh;
+  font-family: 'Bebas Neue', sans-serif;
+  /* Stile Wrestling */
+}
+
+.my-products-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px #ff0000;
+  letter-spacing: 2px;
+}
+
+.card {
+  background-color: #1a1a1a !important;
+  border: 2px solid #ff0000;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: contain;
+  border-bottom: 2px solid #ff0000;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #ffcc00;
+}
+
+.card-text {
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  border: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #004cff;
+}
+
+.btn-danger {
+  font-weight: bold;
+}
+
+.text-center h2 {
+  color: #ccc;
+  font-style: italic;
+}

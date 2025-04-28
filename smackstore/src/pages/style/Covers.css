@@ -1,0 +1,88 @@
+
+
+.cover {
+    padding: 2rem;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.cover-title {
+    text-align: center;
+    font-size: 3rem;
+    color: #ff0000;
+    text-shadow: 2px 2px 10px #000;
+    margin-bottom: 3rem;
+    animation: pulseGlow 1.5s infinite;
+}
+
+.cover-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.cover-card {
+    background: #111;
+    border: 2px solid #ff0000;
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.cover-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);
+}
+
+.cover-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    border: 2px solid #ff0000;
+}
+
+.tit3 {
+    font-size: 1.5rem;
+    color: #ffd700;
+    text-shadow: 1px 1px 5px black;
+    margin-bottom: 0.5rem;
+    white-space: nowrap; /* Impedisce il ritorno a capo */
+    overflow: hidden; /* Nasconde il testo in eccesso */
+    text-overflow: ellipsis; /* Aggiunge i puntini di sospensione (...) */
+    max-width: 500px; /* Limita la larghezza massima al 100% del contenitore */
+    width: 100%; 
+    display: block;
+}
+
+.cover p {
+    margin: 0 0.5rem;
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+button {
+    margin-left: 1rem;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #fff;
+}
+
+/* Animazioni */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulseGlow {
+    0% { text-shadow: 0 0 10px red; }
+    50% { text-shadow: 0 0 20px yellow; }
+    100% { text-shadow: 0 0 10px red; }
+}
