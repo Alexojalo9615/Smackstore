@@ -37,11 +37,11 @@ const NavbarCon = () => {
 
                     <Nav className="d-flex gap-3">
 
-                        <Nav.Link as={Link} className=" link me-3 position-relative" to="/cart"
-                            style={{ color: "black", zIndex: 0 }}>
-                            <FaShoppingCart size={22} />
+                        <Nav.Link as={Link} className=" link me-3 " to="/cart"
+                            style={{ color: "black", zIndex: 0, height: 60 }}>
+                            <FaShoppingCart size={22} className="position-relative mt-2" />
                             {cart.length > 0 && (
-                                <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary mt-1"
+                                <span id="car" className="position-absolute mb-1 start-85 translate-middle badge rounded-pill bg-primary "
                                     style={{ zIndex: 2 }}>
 
                                     {cart.length}

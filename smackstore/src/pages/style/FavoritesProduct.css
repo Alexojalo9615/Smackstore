@@ -67,36 +67,3 @@
     color: rgb(140, 0, 255);
 }
 
-/* 
-@media (max-width: 575px) {
-
-    .fav-card {
-
-        max-width: 100%;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-
-    .fav-card {
-        max-width: 45%;
-    
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-
-    .fav-card {
-        max-width: 30%;
-
-    }
-}
-
-@media (min-width: 992px) {
-
-    .fav-card {
-
-       max-width: 22%;
-    }
-} */
