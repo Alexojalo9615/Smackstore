@@ -1,0 +1,11 @@
+# SmackStore – Wrestling E-commerce
+
+### 🚀 Tecnologie usate
+- Frontend: React, Tailwind
+- Backend: Node.js, Express, MongoDB
+- Autenticazione: JWT
+
+### 🔍 Funzionalità principali
+- Login/registrazione
+- Aggiunta prodotti al carrello
+- Checkout e salvataggio ordine
