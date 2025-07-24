@@ -52,4 +52,5 @@ Smackstore is an e-commerce based on wrestling specifically on WWE, enterprise l
 - Visit the http://localhost:3000 on the browser
 - You're now able to browse Smackstore 
 
-### Please Note
+### 👀 Please Note
+Be sure to have **Node.js (V16+)** e **npm** installed. Be sure also to have `.env`, otherwise back-end will not be able to connect to Moongose or to sign JWT token.
