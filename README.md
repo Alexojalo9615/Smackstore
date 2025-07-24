@@ -28,3 +28,27 @@ Smackstore is an e-commerce based on wrestling specifically on WWE, enterprise l
 **Responsive Design**
 - Mobile and desktop optimized layout
 - Modular, reusable React components
+
+## 🧪 How to run the project
+
+**Clone the repo**
+- '''bash
+- git clone https://github.com/Alexojalo9615/Smackstore.git
+- cd Smackstore
+
+**Set up the backend**
+- cd Backend
+- npm install
+- npm run dev
+(Express server will run on http://localhost:5000 by default)
+
+**Set up the frontend**
+- cd../smackstore
+- npm install
+- npm start
+(React will open on http://localhost:3000)
+
+**Try the e-commerce**
+- Visit the http://localhost:3000 on the browser
+- You're now able to browse Smackstore 
+
