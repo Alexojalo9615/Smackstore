@@ -52,3 +52,4 @@ Smackstore is an e-commerce based on wrestling specifically on WWE, enterprise l
 - Visit the http://localhost:3000 on the browser
 - You're now able to browse Smackstore 
 
+### Please Note
