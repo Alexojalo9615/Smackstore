@@ -31,8 +31,12 @@ Smackstore is an e-commerce based on wrestling specifically on WWE, enterprise l
 
 ## 🧪 How to run the project
 
+**Open the powershell** Windows + R, press 'cmd'
+- cd C:\
+- mkdir code
+- cd code
+
 **Clone the repo**
-- '''bash
 - git clone https://github.com/Alexojalo9615/Smackstore.git
 - cd Smackstore
 
