@@ -1,5 +1,5 @@
 # 🌱 Smackstore
-Smackstore is an e-commerce based on wrestling specifically on WWE, enterprise leader in his sector.
+Smackstore is an e-commerce website on wrestling, specifically on WWE - a leading company in the sports entertainment industry.
 
 ## 🚀 Tech Stack
 - **Front-end:** React, JavaScript, CSS3, HTML5
@@ -13,10 +13,10 @@ Smackstore is an e-commerce based on wrestling specifically on WWE, enterprise l
 - Categories's filters
 
 **Authentication & Roles**
-- Login and Register area
+- Login and register system
 
 **Shopping Cart**
-- Add and Remove products to the cart directly from the library
+- Add and remove products to the cart directly from the library
 - Dynamic display of item count and total price
 - Temporary persistence in localStorage until checkout
 
@@ -26,12 +26,12 @@ Smackstore is an e-commerce based on wrestling specifically on WWE, enterprise l
 - Success or failure feedback to the user
 
 **Responsive Design**
-- Mobile and desktop optimized layout
+- Optimized layout for mobile and desktop
 - Modular, reusable React components
 
 ## 🧪 How to run the project
 
-**Check the link**
+**Check the live site here**
 - https://smackstore.vercel.app
 
 **Please Note**
