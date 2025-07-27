@@ -32,4 +32,8 @@ Smackstore is an e-commerce based on wrestling specifically on WWE, enterprise l
 ## 🧪 How to run the project
 
 **Check the link**
-https://smackstore.vercel.app
+- https://smackstore.vercel.app
+
+**Please Note**
+⚠️ Note: Clicking on "Pay" attempts to connect to an inactive Stripe endpoint, which results in a "Site can’t be reached" error.
+This behavior is expected, as the payment integration phase is not yet complete.
