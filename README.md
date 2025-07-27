@@ -31,30 +31,5 @@ Smackstore is an e-commerce based on wrestling specifically on WWE, enterprise l
 
 ## 🧪 How to run the project
 
-**Open the powershell** Windows + R, press 'cmd'
-- cd C:\
-- mkdir code
-- cd code
-
-**Clone the repo**
-- git clone https://github.com/Alexojalo9615/Smackstore.git
-- cd Smackstore
-
-**Set up the backend**
-- cd Backend
-- npm install
-- npm run dev
-(Express server will run on http://localhost:5000 by default)
-
-**Set up the frontend**
-- cd../smackstore
-- npm install
-- npm start
-(React will open on http://localhost:3000)
-
-**Try the e-commerce**
-- Visit the http://localhost:3000 on the browser
-- You're now able to browse Smackstore 
-
-### 👀 Please Note
-Be sure to have **Node.js (V16+)** e **npm** installed. Be sure also to have `.env`, otherwise back-end will not be able to connect to Moongose or to sign JWT token.
+**Check the link**
+https://smackstore.vercel.app
