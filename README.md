@@ -1,5 +1,5 @@
 # 🌱 Smackstore
-Smackstore is an e-commerce based on wrestling specifically on WWE, enterprise leader in his sector.
+Smackstore is an e-commerce website on wrestling, specifically on WWE - a leading company in the sports entertainment industry.
 
 ## 🚀 Tech Stack
 - **Front-end:** React, JavaScript, CSS3, HTML5
@@ -13,10 +13,10 @@ Smackstore is an e-commerce based on wrestling specifically on WWE, enterprise l
 - Categories's filters
 
 **Authentication & Roles**
-- Login and Register area
+- Login and register system
 
 **Shopping Cart**
-- Add and Remove products to the cart directly from the library
+- Add and remove products to the cart directly from the library
 - Dynamic display of item count and total price
 - Temporary persistence in localStorage until checkout
 
@@ -26,35 +26,14 @@ Smackstore is an e-commerce based on wrestling specifically on WWE, enterprise l
 - Success or failure feedback to the user
 
 **Responsive Design**
-- Mobile and desktop optimized layout
+- Optimized layout for mobile and desktop
 - Modular, reusable React components
 
 ## 🧪 How to run the project
 
-**Open the powershell** Windows + R, press 'cmd'
-- cd C:\
-- mkdir code
-- cd code
+**Check the live site here**
+- https://smackstore.vercel.app
 
-**Clone the repo**
-- git clone https://github.com/Alexojalo9615/Smackstore.git
-- cd Smackstore
-
-**Set up the backend**
-- cd Backend
-- npm install
-- npm run dev
-(Express server will run on http://localhost:5000 by default)
-
-**Set up the frontend**
-- cd../smackstore
-- npm install
-- npm start
-(React will open on http://localhost:3000)
-
-**Try the e-commerce**
-- Visit the http://localhost:3000 on the browser
-- You're now able to browse Smackstore 
-
-### 👀 Please Note
-Be sure to have **Node.js (V16+)** e **npm** installed. Be sure also to have `.env`, otherwise back-end will not be able to connect to Moongose or to sign JWT token.
+**Please Note**
+⚠️ Note: Clicking on "Pay" attempts to connect to an inactive Stripe endpoint, which results in a "Site can’t be reached" error.
+This behavior is expected, as the payment integration phase is not yet complete.
