@@ -16,7 +16,7 @@ const EditProductPage = () => {
         const fetchProduct = async () => {
             try {
                 const token = localStorage.getItem("token");
-                const response = await axios.get(`http://localhost:5030/products/${id}`, {
+                const response = await axios.get(`https://smackstore.onrender.com/products/${id}`, {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },
@@ -38,7 +38,7 @@ const EditProductPage = () => {
             try {
 
                 const token = localStorage.getItem("token");
-                const response = await axios.get("http://localhost:5030/api/wrestlers", {
+                const response = await axios.get("https://smackstore.onrender.com/api/wrestlers", {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },
@@ -83,7 +83,7 @@ const EditProductPage = () => {
                 formData.append("image", product.image); // Aggiungi l'immagine se presente
             }
 
-            await axios.put(`http://localhost:5030/products/product/user/${id}`, formData, {
+            await axios.put(`hhttps://smackstore.onrender.com/products/product/user/${id}`, formData, {
                 headers: {
                     Authorization: `Bearer ${token}`,
                     "Content-Type": "multipart/form-data",

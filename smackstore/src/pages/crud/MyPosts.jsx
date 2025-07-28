@@ -24,7 +24,7 @@ const MyPosts = () => {
                 const token = localStorage.getItem("token");
 
                 try {
-                    const response = await axios.get(`http://localhost:5030/products/user/${user._id}`, {
+                    const response = await axios.get(`https://smackstore.onrender.com/products/user/${user._id}`, {
                         headers: {
                             Authorization: `Bearer ${token}`,
                         },
@@ -48,7 +48,7 @@ const MyPosts = () => {
             try {
 
                 const token = localStorage.getItem("token");
-                await axios.delete(`http://localhost:5030/products/product/user/${productId}`, {
+                await axios.delete(`https://smackstore.onrender.com/products/product/user/${productId}`, {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },

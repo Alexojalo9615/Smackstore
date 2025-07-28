@@ -24,7 +24,7 @@ const CreatePost = () => {
             try {
 
                 const token = localStorage.getItem("token");
-                const response = await axios.get("http://localhost:5030/api/wrestlers", {
+                const response = await axios.get("https://smackstore.onrender.com/api/wrestlers", {
                     headers: {
                         Authorization: `Bearer ${token}`,   
                     },
@@ -78,7 +78,7 @@ const CreatePost = () => {
             const token = localStorage.getItem("token");
             console.log(token);
 
-            const response = await axios.post("http://localhost:5030/products", formDataToSend, { //DA VEDERE BACKEND !!!
+            const response = await axios.post("https://smackstore.onrender.com/products", formDataToSend, { //DA VEDERE BACKEND !!!
                 headers: {
                     "Content-Type": "multipart/form-data",
                     Authorization: `Bearer ${token}`,
