@@ -13,7 +13,7 @@ const Covers = () => {
     useEffect(() => {
         const fetchCovers = async () => {
             try {
-                const response = await axios.get("http://localhost:5030/api/cases/cases");
+                const response = await axios.get("https://smackstore.onrender.com/api/cases/cases");
                 setCover(response.data);
                 console.log(response.data);
 
