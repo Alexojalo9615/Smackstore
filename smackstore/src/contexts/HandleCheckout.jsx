@@ -9,7 +9,7 @@ const handleCheckout = async (cartItems) => { // Funzione per gestire il checkou
 
     try {
 
-        const response = await fetch("http://localhost:5030/api/stripe/create-checkout-session", { // Invia una richiesta POST al server per creare una sessione di checkout
+        const response = await fetch("https://smackstore.onrender.com/api/stripe/create-checkout-session", { // Invia una richiesta POST al server per creare una sessione di checkout
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
