@@ -83,7 +83,7 @@ const EditProductPage = () => {
                 formData.append("image", product.image); // Aggiungi l'immagine se presente
             }
 
-            await axios.put(`hhttps://smackstore.onrender.com/products/product/user/${id}`, formData, {
+            await axios.put(`https://smackstore.onrender.com/products/product/user/${id}`, formData, {
                 headers: {
                     Authorization: `Bearer ${token}`,
                     "Content-Type": "multipart/form-data",
