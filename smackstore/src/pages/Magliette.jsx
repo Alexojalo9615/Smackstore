@@ -13,7 +13,7 @@ const Magliette = () => {
     useEffect(() => {
         const fetchMagliette = async () => {
             try {
-                const response = await axios.get("http://localhost:5030/api/tshirts/tshirts");
+                const response = await axios.get("https://smackstore.onrender.com/api/tshirts/tshirts");
                 setMagliette(response.data);
                 console.log(response.data);
 

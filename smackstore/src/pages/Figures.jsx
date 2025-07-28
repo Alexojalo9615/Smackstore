@@ -13,7 +13,7 @@ const Figures = () => {
     useEffect(() => {
         const fetchFigures = async () => {
             try {
-                const response = await axios.get("http://localhost:5030/api/action-figures/figures");
+                const response = await axios.get("https://smackstore.onrender.com/api/action-figures/figures");
                 setFigures(response.data);
                 console.log(response.data);
 

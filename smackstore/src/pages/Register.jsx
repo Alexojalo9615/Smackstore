@@ -18,7 +18,7 @@ const Register = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post("http://localhost:5030/users/register", formData);
+            await axios.post("https://smackstore.onrender.com/users/register", formData);
             navigate("/login");
         } catch (err) {
             setError(err.response.data.message);
